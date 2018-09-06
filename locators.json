@@ -1,0 +1,1236 @@
+{
+  "DemoLoginPage": {
+      "HeaderElement":
+          {
+            "ru":"Добрый день, Советник!", 
+            "eng":"Welcome Advisor", 
+            "locator":"h1.demo-page__title"
+          },
+      "FooterElement": 
+          {
+            "ru":"ООО «Компания ***» © 1995-2018. Все права защищены.", 
+            "eng":"TBD", 
+            "locator":"footer.demo-page__footer div.col-8"
+          },
+      "EmailInput": 
+          {
+            "ru":"", 
+            "eng":"", 
+            "locator":".form-control"
+          },
+      "ButtonSubmit": 
+          {
+            "ru":"Далее", 
+            "eng":"TBD", 
+            "locator":"button.btn-primary"
+          },
+      "ErrorElement": 
+          {
+            "ru":"NULL", 
+            "eng":"TBD", 
+            "locator":"div.form-control-feedback-text"
+          }
+  },
+  "DemoWelcomePage": {
+      "HeaderElement":
+      {
+        "ru":"Демо доступ", 
+        "eng":"TBD", 
+        "locator":"h1.demo-page__title"
+      },
+      "FooterElement": 
+      {
+        "ru":"ООО «Компания ***» © 1995-2018. Все права защищены.", 
+        "eng":"TBD", 
+        "locator":"footer.demo-page__footer div.col-8"
+      },
+      "ButtonSubmit": 
+        {
+          "ru":"Регистрация", 
+          "eng":"TBD", 
+          "locator":"button[type=submit]"
+        }
+  },
+  "ClientRegisterPage": {
+      "HeaderElement":
+      {
+        "ru":"Вход в систему", 
+        "eng":"TBD", 
+        "locator":"h1.auth-page__title"
+      },
+      "FooterElement": 
+      {
+        "ru":"ООО «Компания ***» © 1995-2018. Все права защищены.", 
+        "eng":"TBD", 
+        "locator":"footer.auth-page__footer div.col-8"
+      },
+    "InfoElement": 
+    {
+      "ru":"Для входа в систему необходимо ввести свой номер телефона, после чего вы получите смс с кодом доступа", 
+      "eng":"TBD", 
+      "locator":"div.auth-page__description"
+    },
+    "PhoneInput": 
+    {
+      "ru":"", 
+      "eng":"", 
+      "locator":"input[name=phone]"
+    },
+    "ButtonSubmit": 
+    {
+      "ru":"Войти", 
+      "eng":"TBD", 
+      "locator":"button.btn-primary"
+    },
+    "EnterByLoginPswdBtn": 
+    {
+      "ru":"Войти по логину и паролю", 
+      "eng":"TBD", 
+      "locator":"button.action"
+    }
+  },
+  "SMSCodePage": {
+      "HeaderElement":
+      {
+        "ru":"СМС-подтверждение", 
+        "eng":"TBD", 
+        "locator":"h1.auth-page__title"
+      },
+      "FooterElement": 
+      {
+        "ru":"ООО «Компания ***» © 1995-2018. Все права защищены.", 
+        "eng":"TBD", 
+        "locator":"footer.auth-page__footer div.col-8"
+      },
+      "BackButton": 
+      {
+        "ru":"", 
+        "eng":"", 
+        "locator":"div.back-btn button"
+      },
+      "CodeSentInfo": 
+      {
+        "ru":"Код отправлен на номер:", 
+        "eng":"", 
+        "locator":"div.auth-page__description"
+      },
+      "CodeInput": 
+      {
+        "ru":"", 
+        "eng":"", 
+        "locator":"input[name=otp]"
+      },
+      "WrongCodeLabel": 
+      {
+        "ru":"Неправильный пароль", 
+        "eng":"", 
+        "locator":"div.form-control-feedback-text"
+      },
+      "SendSMSCodeAgainBtn": 
+      {
+        "ru":"Запросить код повторно", 
+        "eng":"", 
+        "locator":"div.actions button"
+      }
+},
+  "AboutPage": {
+    "HeaderElement":
+    {
+      "ru":"Расскажите о себе", 
+      "eng":"TBD", 
+      "locator":"h1.auth-page__title"
+    },
+    "FooterElement": 
+    {
+      "ru":"ООО «Компания ***» © 1995-2018. Все права защищены.", 
+      "eng":"TBD", 
+      "locator":"footer.auth-page__footer div.col-8"
+    },
+    "GeneralWelcomeElement": 
+    {
+      "ru":"Фамилия, имя и отчество должны соответствовать паспортным данным", 
+      "eng":"TBD", 
+      "locator":"div.auth-page__description"
+    },
+    "GeneralInfoElement": 
+    {
+      "ru":"ОБЩАЯ ИНФОРМАЦИЯ", 
+      "eng":"TBD", 
+      "locator":"h2 span"
+    },
+    "LastNameInput": 
+    {
+      "ru":"", 
+      "eng":"TBD", 
+      "locator":"input[name=lastname]"
+    },
+    "FirstNameInput": 
+    {
+      "ru":"", 
+      "eng":"TBD", 
+      "locator":"input[name=firstname]"
+    },
+    "MiddleNameInput": 
+    {
+      "ru":"", 
+      "eng":"TBD", 
+      "locator":"input[name=middlename]"
+    },
+    "EmailInput": 
+    {
+      "ru":"", 
+      "eng":"TBD", 
+      "locator":"input[name=email]"
+    },
+    "MidNameOptionalInfoElement": 
+    {
+      "ru":"Необязательно", 
+      "eng":"Optional", 
+      "locator":""
+    },
+    "ButtonSubmit": 
+    {
+      "ru":"Продолжить", 
+      "eng":"TBD", 
+      "locator":"button[type=submit]"
+    },
+    "IAgreeCheckBox": 
+    {
+      "ru":"Продолжить", 
+      "eng":"TBD", 
+      "locator":"input[type=checkbox]"
+    },
+    "CheckBoxInfoLabel": 
+    {
+      "ru":"Я подтверждаю свое согласие на ", 
+      "eng":"TBD", 
+      "locator":"label.custom-control-label"
+    },
+    "CheckBoxInfoLink": 
+    {
+      "ru":"обработку и хранение персональных данных", 
+      "eng":"TBD", 
+      "locator":"a.checkbox-link"
+    }
+},
+  "QuestionaryPage_1": {
+    "HeaderElement":
+    {
+      "ru":"Укажите, пожалуйста, Ваш возраст", 
+      "eng":"TBD", 
+      "locator":"h1.questionary-page__title"
+    },
+    "QuestionNumber": 
+    {
+      "ru":"вопрос 1 из 12", 
+      "eng":"TBD", 
+      "locator":"div.questionId"
+    },
+    "Answer_1": 
+    {
+      "ru":"До 30 лет", 
+      "eng":"TBD", 
+      "locator":"label[for='answer1']"
+    },
+    "RadioButtonAnswer_1": 
+    {
+      "ru":"", 
+      "eng":"", 
+      "locator":"#answer1"
+    },
+    "Answer_2": 
+    {
+      "ru":"От 30 до 50 лет", 
+      "eng":"TBD", 
+      "locator":"label[for='answer2']"
+    },
+    "RadioButtonAnswer_2": 
+    {
+      "ru":"", 
+      "eng":"", 
+      "locator":"#answer2"
+    },
+    "Answer_3": 
+    {
+      "ru":"От 50 до 65 лет", 
+      "eng":"TBD", 
+      "locator":"label[for='answer3']"
+    },
+    "RadioButtonAnswer_3": 
+    {
+      "ru":"", 
+      "eng":"", 
+      "locator":"#answer3"
+    },
+    "Answer_4": 
+    {
+      "ru":"От 65 лет", 
+      "eng":"TBD", 
+      "locator":"label[for='answer4']"
+    },
+    "RadioButtonAnswer_4": 
+    {
+      "ru":"", 
+      "eng":"", 
+      "locator":"#answer4"
+    },
+    "ButtonSubmit": 
+    {
+      "ru":"Продолжить", 
+      "eng":"TBD", 
+      "locator":"button[type=submit]"
+    }
+  },
+  "QuestionaryPage_2": {
+      "HeaderElement":
+      {
+        "ru":"Какую часть сбережений Вы планируете инвестировать?", 
+        "eng":"TBD", 
+        "locator":"h1.questionary-page__title"
+      },
+      "QuestionNumber": 
+      {
+        "ru":"вопрос 2 из 12", 
+        "eng":"TBD", 
+        "locator":"div.questionId"
+      },
+      "Answer_1": 
+      {
+        "ru":"Практически все сбережения", 
+        "eng":"TBD", 
+        "locator":"label[for='answer1']"
+      },
+      "RadioButtonAnswer_1": 
+      {
+        "ru":"", 
+        "eng":"", 
+        "locator":"#answer1"
+      },
+      "Answer_2": 
+      {
+        "ru":"Бóльшую часть сбережений", 
+        "eng":"TBD", 
+        "locator":"label[for='answer2']"
+      },
+      "RadioButtonAnswer_2": 
+      {
+        "ru":"", 
+        "eng":"", 
+        "locator":"#answer2"
+      },
+      "Answer_3": 
+      {
+        "ru":"Меньшую часть сбережений", 
+        "eng":"TBD", 
+        "locator":"label[for='answer3']"
+      },
+      "RadioButtonAnswer_3": 
+      {
+        "ru":"", 
+        "eng":"", 
+        "locator":"#answer3"
+      },
+      "ButtonSubmit": 
+      {
+        "ru":"Продолжить", 
+        "eng":"TBD", 
+        "locator":"button[type=submit]"
+      },
+      "BackButton":
+        {
+          "ru":"Назад", 
+          "eng":"TBD", 
+          "locator":"button.secondary-button"
+        }
+    },
+  "QuestionaryPage_3": {
+        "HeaderElement":
+        {
+          "ru":"На какой максимальный срок Вы готовы инвестировать средства?", 
+          "eng":"TBD", 
+          "locator":"h1.questionary-page__title"
+        },
+        "QuestionNumber": 
+        {
+          "ru":"вопрос 3 из 12", 
+          "eng":"TBD", 
+          "locator":"div.questionId"
+        },
+        "Answer_1": 
+        {
+          "ru":"Менее 1 года", 
+          "eng":"TBD", 
+          "locator":"label[for='answer1']"
+        },
+        "RadioButtonAnswer_1": 
+        {
+          "ru":"", 
+          "eng":"", 
+          "locator":"#answer1"
+        },
+        "Answer_2": 
+        {
+          "ru":"От 1 года до 3 лет", 
+          "eng":"TBD", 
+          "locator":"label[for='answer2']"
+        },
+        "RadioButtonAnswer_2": 
+        {
+          "ru":"", 
+          "eng":"", 
+          "locator":"#answer2"
+        },
+        "Answer_3": 
+        {
+          "ru":"От 3 лет", 
+          "eng":"TBD", 
+          "locator":"label[for='answer3']"
+        },
+        "RadioButtonAnswer_3": 
+        {
+          "ru":"", 
+          "eng":"", 
+          "locator":"#answer3"
+        },
+        "Answer_4": 
+        {
+          "ru":"От нескольких минут до нескольких лет (регулярные инвестиции)", 
+          "eng":"TBD", 
+          "locator":"label[for='answer4']"
+        },
+        "RadioButtonAnswer_4": 
+        {
+          "ru":"", 
+          "eng":"", 
+          "locator":"#answer4"
+        },
+        "ButtonSubmit": 
+        {
+          "ru":"Продолжить", 
+          "eng":"TBD", 
+          "locator":"button[type=submit]"
+        },
+        "BackButton":
+        {
+          "ru":"Назад", 
+          "eng":"TBD", 
+          "locator":"button.secondary-button"
+        }
+      },
+  "QuestionaryPage_4": {
+          "HeaderElement":
+          {
+            "ru":"Вы больше заинтересованы в получении периодического или разового дохода?", 
+            "eng":"TBD", 
+            "locator":"h1.questionary-page__title"
+          },
+          "QuestionNumber": 
+          {
+            "ru":"вопрос 4 из 12", 
+            "eng":"TBD", 
+            "locator":"div.questionId"
+          },
+          "Answer_1": 
+          {
+            "ru":"Периодический доход", 
+            "eng":"TBD", 
+            "locator":"label[for='answer1']"
+          },
+          "RadioButtonAnswer_1": 
+          {
+            "ru":"", 
+            "eng":"", 
+            "locator":"#answer1"
+          },
+          "Answer_2": 
+          {
+            "ru":"Разовый доход, в конце срока действия продукта", 
+            "eng":"TBD", 
+            "locator":"label[for='answer2']"
+          },
+          "RadioButtonAnswer_2": 
+          {
+            "ru":"", 
+            "eng":"", 
+            "locator":"#answer2"
+          },
+          "Answer_3": 
+          {
+            "ru":"Неважно", 
+            "eng":"TBD", 
+            "locator":"label[for='answer3']"
+          },
+          "RadioButtonAnswer_3": 
+          {
+            "ru":"", 
+            "eng":"", 
+            "locator":"#answer3"
+          },
+          "ButtonSubmit": 
+          {
+            "ru":"Продолжить", 
+            "eng":"TBD", 
+            "locator":"button[type=submit]"
+          },
+          "BackButton":
+          {
+            "ru":"Назад", 
+            "eng":"TBD", 
+            "locator":"button.secondary-button"
+          }
+        },
+  "QuestionaryPage_5": {
+        "HeaderElement":
+        {
+            "ru":"Какова вероятность, что Вы захотите изъять большую часть или всю инвестированную сумму досрочно, до истечения предполагаемого срока инвестиций?", 
+            "eng":"TBD", 
+            "locator":"h1.questionary-page__title"
+        },
+        "QuestionNumber": 
+        {
+            "ru":"вопрос 5 из 12", 
+            "eng":"TBD", 
+            "locator":"div.questionId"
+        },
+          "Answer_1": 
+          {
+            "ru":"Очень высокая", 
+            "eng":"TBD", 
+            "locator":"label[for='answer1']"
+          },
+          "RadioButtonAnswer_1": 
+          {
+            "ru":"", 
+            "eng":"", 
+            "locator":"#answer1"
+          },
+          "Answer_2": 
+          {
+            "ru":"Скорее высокая", 
+            "eng":"TBD", 
+            "locator":"label[for='answer2']"
+          },
+          "RadioButtonAnswer_2": 
+          {
+            "ru":"", 
+            "eng":"", 
+            "locator":"#answer2"
+          },
+          "Answer_3": 
+          {
+            "ru":"Средняя", 
+            "eng":"TBD", 
+            "locator":"label[for='answer3']"
+          },
+          "RadioButtonAnswer_3": 
+          {
+            "ru":"", 
+            "eng":"", 
+            "locator":"#answer3"
+          },
+          "Answer_4": 
+          {
+            "ru":"Низкая", 
+            "eng":"TBD", 
+            "locator":"label[for='answer4']"
+          },
+          "RadioButtonAnswer_4": 
+          {
+            "ru":"", 
+            "eng":"", 
+            "locator":"#answer4"
+          },
+          "ButtonSubmit": 
+          {
+            "ru":"Продолжить", 
+            "eng":"TBD", 
+            "locator":"button[type=submit]"
+          },
+          "BackButton":
+          {
+            "ru":"Назад", 
+            "eng":"TBD", 
+            "locator":"button.secondary-button"
+          }
+        },
+  "QuestionaryPage_6": {
+          "HeaderElement":
+          {
+            "ru":"Укажите, пожалуйста, Ваше образование", 
+            "eng":"TBD", 
+            "locator":"h1.questionary-page__title"
+          },
+          "QuestionNumber": 
+          {
+            "ru":"вопрос 6 из 12", 
+            "eng":"TBD", 
+            "locator":"div.questionId"
+          },
+          "Answer_1": 
+          {
+            "ru":"Среднее, среднее специальное", 
+            "eng":"TBD", 
+            "locator":"label[for='answer1']"
+          },
+          "RadioButtonAnswer_1": 
+          {
+            "ru":"", 
+            "eng":"", 
+            "locator":"#answer1"
+          },
+          "Answer_2": 
+          {
+            "ru":"Высшее", 
+            "eng":"TBD", 
+            "locator":"label[for='answer2']"
+          },
+          "RadioButtonAnswer_2": 
+          {
+            "ru":"", 
+            "eng":"", 
+            "locator":"#answer2"
+          },
+          "Answer_3": 
+          {
+            "ru":"Высшее экономическое/финансовое", 
+            "eng":"TBD", 
+            "locator":"label[for='answer3']"
+          },
+          "RadioButtonAnswer_3": 
+          {
+            "ru":"", 
+            "eng":"", 
+            "locator":"#answer3"
+          },
+          "Answer_4": 
+          {
+            "ru":"Высшее, с наличием таких профессиональных сертификатов как CFA, CIIA, FRM, PRM и т.д.", 
+            "eng":"TBD", 
+            "locator":"label[for='answer4']"
+          },
+          "RadioButtonAnswer_4": 
+          {
+            "ru":"", 
+            "eng":"", 
+            "locator":"#answer4"
+          },
+          "ButtonSubmit": 
+          {
+            "ru":"Продолжить", 
+            "eng":"TBD", 
+            "locator":"button[type=submit]"
+          },
+          "BackButton":
+          {
+            "ru":"Назад", 
+            "eng":"TBD", 
+            "locator":"button.secondary-button"
+          }
+        },
+  "QuestionaryPage_7": {
+          "HeaderElement":
+          {
+            "ru":"Какое у Вас примерное соотношение среднемесячных доходов и расходов за последние 12 месяцев?", 
+            "eng":"TBD", 
+            "locator":"h1.questionary-page__title"
+          },
+          "QuestionNumber": 
+          {
+            "ru":"вопрос 7 из 12", 
+            "eng":"TBD", 
+            "locator":"div.questionId"
+          },
+          "Answer_1": 
+          {
+            "ru":"Среднемесячные доходы меньше среднемесячных расходов", 
+            "eng":"TBD", 
+            "locator":"label[for='answer1']"
+          },
+          "RadioButtonAnswer_1": 
+          {
+            "ru":"", 
+            "eng":"", 
+            "locator":"#answer1"
+          },
+          "Answer_2": 
+          {
+            "ru":"Среднемесячные доходы больше среднемесячных расходов", 
+            "eng":"TBD", 
+            "locator":"label[for='answer2']"
+          },
+          "RadioButtonAnswer_2": 
+          {
+            "ru":"", 
+            "eng":"", 
+            "locator":"#answer2"
+          },
+          "Answer_3": 
+          {
+            "ru":"Среднемесячные доходы значительно больше среднемесячных расходов", 
+            "eng":"TBD", 
+            "locator":"label[for='answer3']"
+          },
+          "RadioButtonAnswer_3": 
+          {
+            "ru":"", 
+            "eng":"", 
+            "locator":"#answer3"
+          },
+          "ButtonSubmit": 
+          {
+            "ru":"Продолжить", 
+            "eng":"TBD", 
+            "locator":"button[type=submit]"
+          },
+          "BackButton":
+          {
+            "ru":"Назад", 
+            "eng":"TBD", 
+            "locator":"button.secondary-button"
+          }
+        },
+  "QuestionaryPage_8": {
+          "HeaderElement":
+          {
+            "ru":"Предположим, что Вы инвестируете 50% ваших накоплений на длительный срок. Какой из вариантов, приведенных ниже, Вам наиболее подходит? (Ожидаемая доходность указана в % годовых, превышающих % депозитам).", 
+            "eng":"TBD", 
+            "locator":"h1.questionary-page__title"
+          },
+          "QuestionNumber": 
+          {
+            "ru":"вопрос 8 из 12", 
+            "eng":"TBD", 
+            "locator":"div.questionId"
+          },
+          "Answer_1": 
+          {
+            "ru":"Вариант №1", 
+            "eng":"TBD", 
+            "locator":"label[for='answer1']"
+          },
+          "RadioButtonAnswer_1": 
+          {
+            "ru":"", 
+            "eng":"", 
+            "locator":"#answer1"
+          },
+          "Answer_2": 
+          {
+            "ru":"Вариант №2", 
+            "eng":"TBD", 
+            "locator":"label[for='answer2']"
+          },
+          "RadioButtonAnswer_2": 
+          {
+            "ru":"", 
+            "eng":"", 
+            "locator":"#answer2"
+          },
+          "Answer_3": 
+          {
+            "ru":"Вариант №3", 
+            "eng":"TBD", 
+            "locator":"label[for='answer3']"
+          },
+          "RadioButtonAnswer_3": 
+          {
+            "ru":"", 
+            "eng":"", 
+            "locator":"#answer3"
+          },
+          "Answer_4": 
+          {
+            "ru":"Вариант №4", 
+            "eng":"TBD", 
+            "locator":"label[for='answer4']"
+          },
+          "RadioButtonAnswer_4": 
+          {
+            "ru":"", 
+            "eng":"", 
+            "locator":"#answer4"
+          },
+          "Answer_5": 
+          {
+            "ru":"Вариант №5", 
+            "eng":"TBD", 
+            "locator":"label[for='answer5']"
+          },
+          "RadioButtonAnswer_5": 
+          {
+            "ru":"", 
+            "eng":"", 
+            "locator":"#answer5"
+          },
+          "Answer_6": 
+          {
+            "ru":"Вариант №6", 
+            "eng":"TBD", 
+            "locator":"label[for='answer6']"
+          },
+          "RadioButtonAnswer_6": 
+          {
+            "ru":"", 
+            "eng":"", 
+            "locator":"#answer6"
+          },
+          "ButtonSubmit": 
+          {
+            "ru":"Продолжить", 
+            "eng":"TBD", 
+            "locator":"button[type=submit]"
+          },
+          "BackButton":
+          {
+            "ru":"Назад", 
+            "eng":"TBD", 
+            "locator":"button.secondary-button"
+          }
+        },
+  "QuestionaryPage_9": {
+          "HeaderElement":
+          {
+            "ru":"Использовали ли Вы ранее инвестиционные инструменты?", 
+            "eng":"TBD", 
+            "locator":"h1.questionary-page__title"
+          },
+          "QuestionNumber": 
+          {
+            "ru":"вопрос 9 из 12", 
+            "eng":"TBD", 
+            "locator":"div.questionId"
+          },
+          "Answer_1": 
+          {
+            "ru":"Не инвестировал ранее/Пользовался или пользовался только банковскими депозитами", 
+            "eng":"TBD", 
+            "locator":"label[for='answer1']"
+          },
+          "RadioButtonAnswer_1": 
+          {
+            "ru":"", 
+            "eng":"", 
+            "locator":"#answer1"
+          },
+          "Answer_2": 
+          {
+            "ru":"У меня есть опыт инвестирования в паевые фонды, услуги доверительного управления", 
+            "eng":"TBD", 
+            "locator":"label[for='answer2']"
+          },
+          "RadioButtonAnswer_2": 
+          {
+            "ru":"", 
+            "eng":"", 
+            "locator":"#answer2"
+          },
+          "Answer_3": 
+          {
+            "ru":"Я занимался инвестированием через брокерский счет", 
+            "eng":"TBD", 
+            "locator":"label[for='answer3']"
+          },
+          "RadioButtonAnswer_3": 
+          {
+            "ru":"", 
+            "eng":"", 
+            "locator":"#answer3"
+          },
+          "ButtonSubmit": 
+          {
+            "ru":"Продолжить", 
+            "eng":"TBD", 
+            "locator":"button[type=submit]"
+          },
+          "BackButton":
+          {
+            "ru":"Назад", 
+            "eng":"TBD", 
+            "locator":"button.secondary-button"
+          }
+        },
+  "QuestionaryPage_10": {
+          "HeaderElement":
+          {
+            "ru":"Какой тип инвестирования Вы предпочитаете?", 
+            "eng":"TBD", 
+            "locator":"h1.questionary-page__title"
+          },
+          "QuestionNumber": 
+          {
+            "ru":"вопрос 10 из 12", 
+            "eng":"TBD", 
+            "locator":"div.questionId"
+          },
+          "Answer_1": 
+          {
+            "ru":"Я рассмотрю готовые решения для инвестирования", 
+            "eng":"TBD", 
+            "locator":"label[for='answer1']"
+          },
+          "RadioButtonAnswer_1": 
+          {
+            "ru":"", 
+            "eng":"", 
+            "locator":"#answer1"
+          },
+          "Answer_2": 
+          {
+            "ru":"Меня интересует как самостоятельная торговля, так и готовые решения", 
+            "eng":"TBD", 
+            "locator":"label[for='answer2']"
+          },
+          "RadioButtonAnswer_2": 
+          {
+            "ru":"", 
+            "eng":"", 
+            "locator":"#answer2"
+          },
+          "Answer_3": 
+          {
+            "ru":"Меня интересует только самостоятельная торговля", 
+            "eng":"TBD", 
+            "locator":"label[for='answer3']"
+          },
+          "RadioButtonAnswer_3": 
+          {
+            "ru":"", 
+            "eng":"", 
+            "locator":"#answer3"
+          },
+          "ButtonSubmit": 
+          {
+            "ru":"Продолжить", 
+            "eng":"TBD", 
+            "locator":"button[type=submit]"
+          },
+          "BackButton":
+          {
+            "ru":"Назад", 
+            "eng":"TBD", 
+            "locator":"button.secondary-button"
+          }
+        },
+  "QuestionaryPage_11": {
+          "HeaderElement":
+          {
+            "ru":"Сколько времени Вы готовы уделять инвестированию?", 
+            "eng":"TBD", 
+            "locator":"h1.questionary-page__title"
+          },
+          "QuestionNumber": 
+          {
+            "ru":"вопрос 11 из 12", 
+            "eng":"TBD", 
+            "locator":"div.questionId"
+          },
+          "Answer_1": 
+          {
+            "ru":"У меня нет времени для анализа и инвестирования в течение дня", 
+            "eng":"TBD", 
+            "locator":"label[for='answer1']"
+          },
+          "RadioButtonAnswer_1": 
+          {
+            "ru":"", 
+            "eng":"", 
+            "locator":"#answer1"
+          },
+          "Answer_2": 
+          {
+            "ru":"Я готов уделять внимание анализу своих позиций, суммарно 2 часа в неделю", 
+            "eng":"TBD", 
+            "locator":"label[for='answer2']"
+          },
+          "RadioButtonAnswer_2": 
+          {
+            "ru":"", 
+            "eng":"", 
+            "locator":"#answer2"
+          },
+          "Answer_3": 
+          {
+            "ru":"У меня достаточно времени для анализа и совершения торговых операций в течение дня", 
+            "eng":"TBD", 
+            "locator":"label[for='answer3']"
+          },
+          "RadioButtonAnswer_3": 
+          {
+            "ru":"", 
+            "eng":"", 
+            "locator":"#answer3"
+          },
+          "ButtonSubmit": 
+          {
+            "ru":"Продолжить", 
+            "eng":"TBD", 
+            "locator":"button[type=submit]"
+          },
+          "BackButton":
+          {
+            "ru":"Назад", 
+            "eng":"TBD", 
+            "locator":"button.secondary-button"
+          }
+        },
+  "QuestionaryPage_12": {
+          "HeaderElement":
+          {
+            "ru":"Насколько Вам интересно разбираться в финансовом рынке?", 
+            "eng":"TBD", 
+            "locator":"h1.questionary-page__title"
+          },
+          "QuestionNumber": 
+          {
+            "ru":"вопрос 12 из 12", 
+            "eng":"TBD", 
+            "locator":"div.questionId"
+          },
+          "Answer_1": 
+          {
+            "ru":"Не интересно. Для меня главное финансовый результат", 
+            "eng":"TBD", 
+            "locator":"label[for='answer1']"
+          },
+          "RadioButtonAnswer_1": 
+          {
+            "ru":"", 
+            "eng":"", 
+            "locator":"#answer1"
+          },
+          "Answer_2": 
+          {
+            "ru":"Мне интересно, но у меня не достаточно знаний для принятия самостоятельных решений", 
+            "eng":"TBD", 
+            "locator":"label[for='answer2']"
+          },
+          "RadioButtonAnswer_2": 
+          {
+            "ru":"", 
+            "eng":"", 
+            "locator":"#answer2"
+          },
+          "Answer_3": 
+          {
+            "ru":"Интересно, я самостоятельно формирую свой портфель и занимаюсь его управлением", 
+            "eng":"TBD", 
+            "locator":"label[for='answer3']"
+          },
+          "RadioButtonAnswer_3": 
+          {
+            "ru":"", 
+            "eng":"", 
+            "locator":"#answer3"
+          },
+          "ButtonSubmit": 
+          {
+            "ru":"Продолжить", 
+            "eng":"TBD", 
+            "locator":"button[type=submit]"
+          },
+          "BackButton":
+          {
+            "ru":"Назад", 
+            "eng":"TBD", 
+            "locator":"button.secondary-button"
+          }
+        },
+  "InvestProfileResultPage": {
+          "HeaderElement":
+          {
+            "ru":"определение инвестпрофиля", 
+            "eng":"TBD", 
+            "locator":"div.questionId"
+          },
+          "ClientProfile": 
+          {
+            "ru":"", 
+            "eng":"", 
+            "locator":"h2.questionId"
+          },
+          "AnotherProfilesLink": 
+          {
+            "ru":"Другие профили", 
+            "eng":"TBD", 
+            "locator":"a.secondary-button"
+          },
+          "ButtonSubmit": 
+          {
+            "ru":"Продолжить", 
+            "eng":"TBD", 
+            "locator":"button[type=submit]"
+          },
+          "AnswerAgain":
+          {
+            "ru":"Пройти заново", 
+            "eng":"TBD", 
+            "locator":"button.secondary-button"
+          }
+        },
+"AnotherProfilesPage": {
+  "BackToQuestionary":
+  {
+    "ru":"Назад к анкете",
+    "eng":"TBD",
+    "locator":"a.header-backButton"
+  },
+  "ProfileTitle":
+  {
+    "ru":"",
+    "eng":"",
+    "locator":"h1.another-profiles-page__title"
+  },
+  "InvestProgressElement":
+  {
+    "ru":"",
+    "eng":"",
+    "locator":"div.invest-progress"
+  },
+  "ProfileDescription":
+  {
+    "ru":"",
+    "eng":"",
+    "locator":"p.another-profiles-page__description"
+  },
+  "InvestProfile_1":
+  {
+    "ru":"",
+    "eng":"",
+    "locator":"#profile1"
+  },
+  "InvestProfile_2":
+  {
+    "ru":"",
+    "eng":"",
+    "locator":"#profile2"
+  },
+  "InvestProfile_3":
+  {
+    "ru":"",
+    "eng":"",
+    "locator":"#profile3"
+  },
+  "InvestProfile_4":
+  {
+    "ru":"",
+    "eng":"",
+    "locator":"#profile4"
+  },
+  "InvestProfile_5":
+  {
+    "ru":"",
+    "eng":"",
+    "locator":"#profile5"
+  },
+  "InvestProfile_6":
+  {
+    "ru":"",
+    "eng":"",
+    "locator":"#profile6"
+  },
+  "Profile_1":
+  {
+    "description":{
+      "ru":"Ваша цель – сохранение и защита капитала. Вы готовы размещать средства только в безрисковые консервативные инструменты. Доходы могут быть получены на уровне или чуть выше существующих процентных ставок по депозитам в соответствующей валюте. Однако доходность носит вероятностный характер, она скорее ожидаемая, чем гарантированная.",
+      "eng":"TBD"
+    },
+    "title":{
+      "ru":"Консервативный",
+      "eng":"TBD"
+    }
+  },
+  "Profile_2":
+  {
+    "description":{
+      "ru":"Вы готовы принять разумный уровень инвестиционного риска в обмен на потенциальную возможность получить доход на уровне существующих процентных ставок по депозитам +3-5% годовых в рублях и/или +2-4% в долларах США. В этом случае стоимость капитала может колебаться, а также упасть ниже суммы Ваших первоначальных инвестиций в краткосрочной перспективе.",
+      "eng":"TBD"
+    },
+    "title":{
+      "ru":"Умеренно Консервативный",
+      "eng":"TBD"
+    }
+  },
+  "Profile_3":
+  {
+    "description":
+    {"ru":"Вы готовы принять умеренно высокий уровень инвестиционного риска и колебаний стоимости в кратко- и среднесрочной перспективе в обмен на потенциальную возможность получить доход на уровне существующих процентных ставок по депозитам +5-8% годовых в рублях и/или +4-7% в долларах США. Стоимость капитала может колебаться, а также упасть ниже суммы Ваших первоначальных инвестиций в течение некоторого периода времени.",
+    "eng":"TBD"
+    },
+    "title":
+    {"ru"   :"Рациональный",
+     "eng"  :"TBD"
+    }
+
+  },
+  "Profile_4":
+  {
+    "description":
+    {"ru":"Вы готовы принять высокий уровень инвестиционного риска и колебаний стоимости в кратко- и среднесрочной перспективе в обмен на потенциальную возможность получить доход на уровне существующих процентных ставок по депозитам +8-11% годовых в рублях и/или +7-11% в долларах США. Стоимость капитала может колебаться, а также упасть ниже суммы Ваших первоначальных инвестиций в течение некоторого периода времени.",
+    "eng":"TBD"
+    },
+    "title":
+    {"ru"   :"Умеренно Агрессивный",
+     "eng"  :"TBD"
+    }
+  },
+  "Profile_5":
+  {
+    "description":
+    {"ru":"Вы готовы принять высокий уровень инвестиционного риска и колебаний стоимости на инвестиционном горизонте в обмен на потенциальную возможность получить доход на уровне существующих процентных ставок по депозитам +11-16% годовых в рублях и/или +11-15% в долларах США. Стоимость капитала может колебаться, а также упасть существенно ниже суммы Ваших первоначальных инвестиций на инвестиционном горизонте.",
+    "eng":"TBD"
+    },
+    "title":
+    {"ru"   :"Агрессивный",
+     "eng"  :"TBD"
+    }
+  },
+  "Profile_6":
+  {
+    "description":
+    {"ru":"Вы готовы принять крайне высокий уровень инвестиционного риска и колебаний стоимости на инвестиционном горизонте в обмен на потенциальную возможность получить доход на уровне существующих процентных ставок по депозитам +16% и выше годовых в рублях и/или +15% и выше в долларах США. Вы можете самостоятельно определять и контролировать уровень инвестиционного риска и вероятной доходности, но, в случае ряда неудачных решений (сделок), возможно, с использованием «плеча» и производных финансовых инструментов, Ваши потери могут составлять на уровне 60% от первоначальных инвестиций.",
+    "eng":"TBD"
+    },
+    "title":
+    {"ru"   :"Сверхагрессивный",
+     "eng"  :"TBD"
+    }
+  }
+  },
+  "WelcomeAvtiveClientPage":
+  {
+    "HeaderElement":
+          {
+            "ru":"Добро пожаловать, %s!", 
+            "eng":"TBD", 
+            "locator":"h1.welcome-page__title"
+          },
+      "FooterElement": 
+          {
+            "ru":"ООО «Компания ***» © 1995-2018. Все права защищены.", 
+            "eng":"TBD", 
+            "locator":"footer.welcome-page__footer.col-8"
+          }
+  },
+  "WelcomeProspectiveClientPage":
+  {
+    "HeaderElement":
+    {
+      "ru":"Добро пожаловать, %s!", 
+      "eng":"TBD", 
+      "locator":"h1.welcome-page__title"
+    },
+    "DescriptionElement":
+    {
+      "locator":"div.welcome-page__description",
+      "ru":"Ответьте на вопросы анкеты, чтобы мы определили ваш финансовый темперамент. Это займет не более 10 минут.",
+      "eng":"TBD"
+    },
+    "ButtonSubmit": 
+    {
+      "ru":"Заполнить анкету", 
+      "eng":"TBD", 
+      "locator":"button.btn-primary"
+    }
+  }
+}
+
