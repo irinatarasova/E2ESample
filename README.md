@@ -1,3 +1,4 @@
+
 this e2e test (user acions emulation)
 
 files:
@@ -19,7 +20,8 @@ testscript.js
 helpes folder
 = /helpers/utils.js contains helper methods
 = /helpers/clientQuestionary.json is a template for Questinary
-============================================================
+
+
 to run test
 1. cd /AutoTest/
 2. npm install
